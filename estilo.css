@@ -1,0 +1,178 @@
+*{
+	font-family: 'Chakra Petch',sans-serif;
+}
+
+.nav__resp-ul{
+	display: none;
+}
+
+.nav{
+	background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+;
+}
+.nav__h1{
+	position: relative; 
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 20px;
+	display: inline-block;
+	color: white;
+}
+.nav__ul{
+	display: flex;
+}
+
+.nav__li{
+	position: relative;
+	left: 41.5%;
+	transform: translateX(-50%);
+	display: inline-block;
+	padding: 10px;
+	color: #fff;
+}
+
+.nav__li:hover > a{
+	color: #bbb;
+}
+.nav__li:hover{
+	color: #bbb;
+}
+
+.nav__li a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav__li i{
+	box-sizing: border-box;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.nav__resp-button-cont{
+	position: absolute;
+	width: 100%;
+	font-size: 25px;
+	margin-top: -45px;
+	z-index: 100;
+	background:linear-gradient(220.55deg, #565656 0%, #181818 100%) ;
+	color: #fff;
+}
+
+.nav__resp-button{
+	margin-top: 3px;
+	padding: 6px 25px;
+	text-align: right;
+	width: 100%;
+}
+
+.nav__resp-ul{
+	font-size: 20px;
+}
+
+.video{
+	height: 700px;
+	text-align: center;
+	background: rgba(90,90,90.5);
+}
+
+.video__file{
+	margin-top: 50px;
+	width: 1200px;
+	height: 600px;
+}
+
+.arbol{
+	height: 800px;
+}
+
+.cont-botones div{
+	text-align: center;
+	position: relative;
+	width: 200px;
+	height: 75px;
+	background: black;
+	border-radius: 10px;
+
+}
+
+.arbol__botones{
+	color: white;
+	text-decoration: none;
+	height: 100px;
+	width: 250px;
+}
+
+@media only screen and (max-width: 500px){
+	.nav__ul{
+		display: none;
+	}
+	.nav{
+		height:	46px;
+		width: 100%;
+	}
+	.nav__resp-ul{
+		display: block;
+		position: absolute;
+		width:100%;
+		height: 46px;
+		margin-top: 46px;
+	}
+	.nav__resp-li{
+		width: 100%;
+	}
+	.nav__resp-li i{
+		padding: 10px;
+		box-sizing: border-box;
+		color: #fff;
+		text-align: center;
+		margin-right: 5px;
+	}
+	.nav__resp-li a{
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.nav__li-cont{
+		position: relative;
+		top: -10000px;
+		height: calc(100vh - 46px);
+		width: 75%;
+		background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+		transition: all 0.7s;
+		padding-top: 10px;
+		z-index: 1;
+	}
+
+	.nav__resp-ul:hover > .nav__li-cont{
+		top:0;
+	}
+
+	.video{
+		height: 300px;
+	}
+
+	.video__file{
+		width: 350px;
+		height: 200px;
+	}
+	.nav__h1{
+		position: absolute;
+		left: 30%;
+		transform: translateX(-30%);
+		z-index: 1000;
+		font-size: 20px;
+		margin: 10px;
+	}
+
+
+	
+} 
+
+.video__flechita{
+	margin-top: 10px;
+	font-size: 20px;
+}
+.video__flechita-link{
+	color: #fff;
+}
+
