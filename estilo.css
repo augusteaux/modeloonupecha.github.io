@@ -292,7 +292,11 @@
 		left: 270px;
 	}
 	.sobre-nos{
-		height: 360px;
+		height: 380px;
+	}
+
+	.footer__p{
+		height: 100px;
 	}
 
 	.footer__logo{
@@ -342,4 +346,12 @@
 
 .sobre-nos__p:first-letter{
 	font-size:23px;
+}
+
+html { 
+  background: url(fondo221.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
