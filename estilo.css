@@ -304,8 +304,8 @@
     and (width: 428px) 
     and (height: 926px) 
     and (-webkit-device-pixel-ratio: 3) { 
-    	.nav__resp-button-cont{
-				margin-bottom: 60px;
+    	.nav__h1{
+    		font-size: 10px;
 		}
 
     }
