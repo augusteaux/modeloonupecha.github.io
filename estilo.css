@@ -236,6 +236,18 @@
 	}
 } 
 
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+
+	.veritas-grande{
+		width: 150px;
+		height: 100px;
+		font-size: 30px;
+		padding-top: 30px;
+		left: 30%;top: 40%;
+	}
+}
+
 .video__flechita{
 	margin-top: 10px;
 	font-size: 20px;
