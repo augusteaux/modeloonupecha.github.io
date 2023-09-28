@@ -159,6 +159,23 @@
 		height: 200px;
 }
 
+.footer{
+	background: rgba(23, 23, 22, 0.8);
+	height: 130px;
+	text-align: center;
+}
+.footer__p{
+	color: rgb(90, 90, 90);
+	margin-top: 20px;
+	display: inline-block;
+	width: 400px;
+}
+.footer__logo{
+	position: absolute;
+	left: 0px;
+	width: 130px;
+}
+
 
 @media only screen and (max-width: 500px){
 	.nav__ul{
@@ -277,14 +294,18 @@
 	.sobre-nos{
 		height: 360px;
 	}
+
+	.footer__logo{
+		display: none;
+}
 } 
 
 @media only screen 
     and (width: 428px) 
     and (height: 926px) 
     and (-webkit-device-pixel-ratio: 3) { 
-    	.nav__resp-ul{
-				height: 70px;
+    	.nav__resp-button-cont{
+				margin-bottom: 60px;
 		}
 
     }
@@ -321,9 +342,4 @@
 
 .sobre-nos__p:first-letter{
 	font-size:23px;
-}
-
-.footer__p{
-	background: rgba(55, 25, 25, .8);
-	height: 100px;
 }
