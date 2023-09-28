@@ -104,7 +104,7 @@
 }
 
 .veritas-grande {
-	position: relative;
+	position: absolute;
 	display: inline-block;
 	width: 350px; 
 	height: 150px;
@@ -205,7 +205,7 @@
 		height: 100px;
 		font-size: 30px;
 		padding-top: 30px;
-		left: 30%;top: -40%;
+		left: 30%;top: 440px;
 	}
 
 	.bot1{
@@ -236,8 +236,7 @@
 	}
 } 
 
-@supports (-webkit-touch-callout: none) {
-  /* CSS specific to iOS devices */ 
+/*@supports (-webkit-touch-callout: none) {
 
 	.veritas-grande{
 		width: 150px;
@@ -247,7 +246,7 @@
 		left: 30%;top: 40%;
 	}
 }
-
+*/
 .video__flechita{
 	margin-top: 10px;
 	font-size: 20px;
