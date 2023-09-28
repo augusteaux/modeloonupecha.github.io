@@ -283,7 +283,7 @@
     and (width: 428px) 
     and (height: 926px) 
     and (-webkit-device-pixel-ratio: 3) { 
-    	.nav{
+    	.nav__resp-ul{
 				height: 70px;
 		}
 
@@ -321,4 +321,9 @@
 
 .sobre-nos__p:first-letter{
 	font-size:23px;
+}
+
+.footer__p{
+	background: rgba(55, 25, 25, .8);
+	height: 100px;
 }
