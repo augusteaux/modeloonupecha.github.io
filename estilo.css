@@ -177,6 +177,14 @@
 }
 
 
+.cavernas{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: darkgrey;
+}
+
+
 @media only screen and (max-width: 500px){
 	.nav__ul{
 		display: none;
@@ -348,10 +356,3 @@
 	font-size:23px;
 }
 
-html { 
-  background: url(fondo221.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
