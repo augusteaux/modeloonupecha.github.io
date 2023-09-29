@@ -184,6 +184,182 @@
 	color: darkgrey;
 }
 
+.ecosoc1{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.ecosoc1__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.ecosoc1__h2{
+	display: inline-block;
+	background-color: #0B880B ;
+}
+
+
+.asamblea{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.asamblea__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.asamblea__h2{
+	display: inline-block;
+	background-color: #E71A1A;
+}
+
+
+.ddhhnuma{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.ddhhnuma__div{
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.ddhhnuma__h2{
+	display: inline-block;
+	background-color: #11D996 ;
+}
+.ddhhnuma__h22{
+	display: inline-block;
+	background-color: #EFA81B ;
+
+}
+
+.consejo{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.consejo__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.consejo__h2{
+	display: inline-block;
+	background-color: #E94ED9;
+}
+
+.oms{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.oms__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.oms__h2{
+	display: inline-block;
+	background-color: #DCF505;
+}
+
+
+.norte{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.norte__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.norte__h2{
+	display: inline-block;
+	background-color: #15D7EA;
+}
+
+
+.sur{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.sur__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sur__h2{
+	display: inline-block;
+	background-color: #15D7EA;
+}
+
+
+.este{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.este__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.este__h2{
+	display: inline-block;
+	background-color: #15D7EA;
+}
+
+
+.oeste{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.oeste__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.oeste__h2{
+	display: inline-block;
+	background-color: #15D7EA;
+}
+
+
+.onum{
+	margin: 20px;
+	padding: 20px;
+	background: rgba(90, 90, 90, .3);
+	color: white;
+}
+
+.onum__div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.onum__h2{
+	display: inline-block;
+	background-color: #15D7EA;
+}
+
+
+
+
 
 @media only screen and (max-width: 500px){
 	.nav__ul{
